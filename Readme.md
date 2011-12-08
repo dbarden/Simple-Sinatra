@@ -1,5 +1,5 @@
 #Introduction
-This is a very very very very very simple [http://www.sinatrarb.com/](sinatra) application using [http://datamapper.org/](DataMapper) for persisting objects
+This is a very very very very very simple [sinatrarb](http://www.sinatrarb.com) application using [DataMapper](http://www.datamapper.org) for persisting objects in a sqlite3 database
 
 What is basically do is receive a post in / containing the parameters 'name' and
 'location' and inserting the in the database
