@@ -11,10 +11,10 @@ set :logging, true
 class Victory
 		include DataMapper::Resource
 
-		property :id,						Serial
-		property :name,					String
-		property :location,			String
-		property :created_at,		DateTime
+		property :id,           Serial
+		property :name,         String
+		property :location,     String
+		property :created_at,   DateTime
 end
 
 DataMapper::Logger.new($stdout, :debug)
