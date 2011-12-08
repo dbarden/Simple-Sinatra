@@ -9,7 +9,7 @@ If the user performs a GET then the information posted will be shown
 # Installation
 Ruby and rubygems, of course. And
 
-    gem install gem install data_mapper dm-sqlite-adapter dm-validations
+    gem install sinatra data_mapper dm-sqlite-adapter dm-validations
 
 And then run
 
