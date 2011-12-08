@@ -1,0 +1,14 @@
+%h1 And Here are the winners
+%table{:border => '1'}
+		%tr
+				%th Name
+				%th City
+				%th Date
+		- @victories.each do |victory|
+				%tr
+						%td
+								= victory.name
+						%td
+								= victory.location
+						%td
+								= victory.created_at.strftime("%F %R")
